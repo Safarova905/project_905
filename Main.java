@@ -1,6 +1,6 @@
-package ru.kpfu.itis.group905.safarova.inf.points;
+package ru.kpfu.itis.group905.safarova.inf.points.project_905;
 
-import static ru.kpfu.itis.group905.safarova.inf.points.Game.*;
+import static ru.kpfu.itis.group905.safarova.inf.points.project_905.Game.*;
 
 public class Main {
     public static void main(String[] args) {

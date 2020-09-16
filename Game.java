@@ -1,4 +1,4 @@
-package ru.kpfu.itis.group905.safarova.inf.points;
+package ru.kpfu.itis.group905.safarova.inf.points.project_905;
 
 
 import java.util.*;
@@ -9,7 +9,6 @@ public class Game {
     static final char h = '0';
     static final char c = 'x';
 
-    //public static void main(String[] args) {
         static void mas() //заполняем поле точками
         {
             for (int i = 0; i < 3; i++) {
@@ -25,7 +24,7 @@ public class Game {
 
                 for (int i = 0; i < 3; i++) {
                     for (int j = 0; j < 3; j++) {
-                        System.out.println(pole[i][j]); //разделение палками поля
+                        System.out.println(pole[i][j]);
                     }
                     System.out.println();
                 }
@@ -43,7 +42,6 @@ public class Game {
             pole[i][j] = h;
         }
 
-        //проверка на заполненность поля while ()
     }
 
     static void comp() {
@@ -56,11 +54,10 @@ public class Game {
         {
             pole[i][j] = c;
         }
-        //проверка на заполненность поля while ()
 
     }
 
-    static boolean win(char symbol) //sym это элемент массива поле
+    static boolean win(char symbol)
     {
         int rez = 0;
         for (int i = 0; i < 3; i++) {
@@ -79,10 +76,6 @@ public class Game {
         }
         return false;
     }
-    /*static void symb(int i, int j, char symbol)
-    {
-        pole[i][j] = symbol;
-    }*/
 
 
 }
